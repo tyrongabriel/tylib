@@ -26,9 +26,9 @@
         # Function will evaluate for each declared system
         perSystem =
           {
-            # config,
-            # self',
-            # inputs',
+            config,
+            self',
+            inputs',
             pkgs,
             system,
             ...
