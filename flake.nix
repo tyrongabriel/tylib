@@ -17,12 +17,12 @@
     flake-parts.lib.mkFlake
       {
         inherit inputs;
+      }
+      {
         # The systems my flake will support
         systems = [
           "x86_64-linux"
         ];
-      }
-      {
         # Function will evaluate for each declared system
         perSystem =
           {
