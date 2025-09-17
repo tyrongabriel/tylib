@@ -1,11 +1,11 @@
 {
   config,
   pkgs,
-  pkgs-stables,
+  pkgs-stable,
   ...
 }:
 {
-  environment.systemPackages = with pkgs-stables; [
+  environment.systemPackages = with pkgs-stable; [
     cowsay
   ];
 }
